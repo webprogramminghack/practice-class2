@@ -1,0 +1,29 @@
+/*
+- **Diwariskan**:
+    - color
+    - font-family
+    - font-size
+    - font-style
+    - font-weight
+    - line-height
+    - text-align
+    - visibility
+    - white-space
+
+- **Tidak Diwariskan**:
+    - margin
+    - padding
+    - border
+    - background
+    - width
+    - height
+    - position
+    - display
+    - float
+    - clear
+*/
+
+.heading p {
+  color: orange;
+  text-align: center;
+}

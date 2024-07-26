@@ -1,0 +1,53 @@
+/* tag selector */
+/* h1 {
+  color: red;
+} */
+
+/* class selector */
+.title {
+  color: green;
+}
+
+/* id selector */
+#titleId {
+  color: blue;
+}
+
+/* Attribute Selector */
+input[type='password'] {
+  background-color: yellow;
+}
+
+.text1,
+.text2 {
+  color: red;
+}
+
+/* Adjacent sibling combinator */
+.h1 + .h3 {
+  color: red;
+}
+
+/* General sibling combinator */
+.h1 ~ .h3 {
+  color: red;
+}
+
+/* Descendant combinator */
+.headings h3 {
+  color: red;
+}
+
+/* Child combinator / direct descendant combinator */
+.headings > h3 {
+  color: red;
+}
+
+.box > * {
+  border: 1px solid black;
+}
+
+/* first child selector*/
+.box > *:first-child {
+  background-color: red;
+}
